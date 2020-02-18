@@ -1,0 +1,32 @@
+Turbo C++ Version 4.02 Copyright (c) 1994 Borland International
+list.cpp:
+set.cpp:
+Error set.cpp 11: Type mismatch in redeclaration of 'BitSet::len'
+Error set.cpp 346: 'BndSet::Print(ostream &) const' is not a member of 'BndSet'
+Error set.cpp 349: Undefined symbol 'len' in function BndSet::Print(ostream &) const
+Warning list.h 49: Functions containing while are not expanded inline in function ListSet::ListSet(const ListSet &)
+Error list.h 70: Type name expected in function ListSet::ListSet(const ListSet &)
+Error list.h 70: Declaration missing ; in function ListSet::ListSet(const ListSet &)
+Error list.h 50: Illegal structure operation in function kill(List &,int)
+Error set.cpp 478: Cannot convert 'TypeNode<int>' to 'int' in function ListSet::ListSet(const ListSet &)
+Error set.cpp 478: Type mismatch in parameter 'no' in call to 'ListSet::Insert(int)' in function ListSet::ListSet(const ListSet &)
+Error set.cpp 512: Cannot cast from 'TypeNode<int>' to 'int' in function ListSet::Min() const
+Error set.cpp 515: Illegal structure operation in function ListSet::Min() const
+Error set.cpp 516: Cannot cast from 'TypeNode<int>' to 'int' in function ListSet::Min() const
+Error set.cpp 532: Cannot cast from 'TypeNode<int>' to 'int' in function ListSet::Max() const
+Error set.cpp 535: Illegal structure operation in function ListSet::Max() const
+Error set.cpp 536: Cannot cast from 'TypeNode<int>' to 'int' in function ListSet::Max() const
+Error set.cpp 551: Illegal structure operation in function ListSet::Member(int) const
+Warning set.cpp 558: Parameter 'no' is never used in function ListSet::Member(int) const
+Error set.cpp 600: Illegal structure operation in function ListSet::Print(ostream &) const
+Error set.cpp 617: Cannot convert 'TypeNode<int>' to 'int' in function ListSet::operator =(const ListSet &)
+Error set.cpp 617: Type mismatch in parameter 'no' in call to 'ListSet::Insert(int)' in function ListSet::operator =(const ListSet &)
+Error set.cpp 634: Cannot cast from 'TypeNode<int>' to 'int' in function ListSet::operator +=(const ListSet &)
+Error set.cpp 650: Cannot convert 'TypeNode<int>' to 'int' in function ListSet::operator *=(const ListSet &)
+Error set.cpp 650: Type mismatch in parameter 'no' in call to 'ListSet::Member(int) const' in function ListSet::operator *=(const ListSet &)
+Error set.cpp 652: Cannot convert 'TypeNode<int>' to 'int' in function ListSet::operator *=(const ListSet &)
+Error set.cpp 652: Type mismatch in parameter 'no' in call to 'ListSet::Delete(int)' in function ListSet::operator *=(const ListSet &)
+Error set.cpp 672: Cannot convert 'TypeNode<int>' to 'int' in function ListSet::operator -=(const ListSet &)
+Error set.cpp 672: Type mismatch in parameter 'no' in call to 'ListSet::Member(int) const' in function ListSet::operator -=(const ListSet &)
+Error set.cpp 672: Too many error or warning messages in function ListSet::operator -=(const ListSet &)
+*** 26 errors in Compile ***

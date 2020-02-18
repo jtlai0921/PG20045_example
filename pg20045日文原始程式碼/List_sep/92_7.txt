@@ -1,0 +1,6 @@
+int factorial (int n)
+ {
+ 	if (   (22)   )
+		return (   (23)   );
+	return (1);
+ }

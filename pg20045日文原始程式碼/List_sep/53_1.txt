@@ -1,0 +1,21 @@
+　　#include	<iostream.h>
+
+　　int main(void)
+　　{
+　　	int  a （37） ;
+　　	int  i;
+
+　　	for ( （38）   （39） ;  （40） ) {
+　　		cout << "a[" << i << "] = ";
+　　		cin >>  （41） ;
+　　	}
+
+　　	int  sum =  （42） ;
+　　	for (（38） （39）;（40）)
+　　		 （43）  +=  （44） ;
+
+　　	cout << "平均値は" << sum /  （45）  << "です。\n";
+
+　　	return (0);
+　　}
+

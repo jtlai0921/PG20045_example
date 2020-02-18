@@ -1,0 +1,8 @@
+void count_v (int x[], int n, int v)
+ {
+      int   （36） ;
+      for ( (24)  i < n;  (25) )
+          if ( （37） )
+               （38） ;
+      return (count);
+ }

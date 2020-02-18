@@ -1,0 +1,7 @@
+int sumup (int x[], int n)
+ {
+     int  sum;
+     for ( (24)  i < n;  (25) )
+         sum +=   (26) ;
+	 return ( (27) );
+ }

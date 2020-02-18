@@ -1,0 +1,5 @@
+void fill_ridx (int x[], int n)
+ {
+     for ( (24)  i < n;  (25) )
+          （30）   =   （31） ;
+ }

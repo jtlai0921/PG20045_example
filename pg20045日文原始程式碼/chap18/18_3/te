@@ -1,0 +1,33 @@
+Turbo C++ Version 4.02 Copyright (c) 1994 Borland International
+set.cpp:
+Error list.h 14: Statement missing ; in function Node::Node()
+Error set.h 46: Type name expected
+Error set.h 46: Declaration missing ;
+Error set.h 42: Undefined symbol 'len' in function BitSet::Lshift(unsigned int,int)
+Error set.cpp 11: 'BitSet::len()' is not a member of 'BitSet'
+Error set.cpp 11: Declaration syntax error
+Error set.cpp 15: 'BitSet::unsigend_len()' is not a member of 'BitSet'
+Error set.cpp 76: Undefined symbol 'len' in function BitSet::Max() const
+Error set.cpp 77: Declaration terminated incorrectly in function BitSet::Max() const
+Error set.cpp 79: Undefined symbol 'x' in function BitSet::Max() const
+Warning set.cpp 88: 'msb' is assigned a value that is never used in function BitSet::Max() const
+Error set.cpp 219: Undefined symbol 'len' in function BndSet::BndSet(unsigned int)
+Error set.cpp 275: Statement missing ; in function BndSet::Max() const
+Error set.cpp 275: Undefined symbol 'i' in function BndSet::Max() const
+Error set.cpp 275: Statement missing ; in function BndSet::Max() const
+Error set.cpp 278: Undefined symbol 'len' in function BndSet::Max() const
+Error set.cpp 286: Undefined symbol 'len' in function BndSet::Member(int) const
+Error set.cpp 286: Undefined symbol 'len' in function BndSet::Member(int) const
+Error set.cpp 293: Undefined symbol 'len' in function BndSet::Insert(int)
+Error set.cpp 293: Undefined symbol 'len' in function BndSet::Insert(int)
+Error set.cpp 300: Undefined symbol 'len' in function BndSet::Delete(int)
+Error set.cpp 300: Undefined symbol 'len' in function BndSet::Delete(int)
+Error set.cpp 307: Undefined symbol 'len' in function BndSet::Fill(int,int)
+Error set.cpp 308: Undefined symbol 'len' in function BndSet::Fill(int,int)
+Error set.cpp 309: Undefined symbol 'len' in function BndSet::Fill(int,int)
+Error set.cpp 310: Undefined symbol 'len' in function BndSet::Fill(int,int)
+Error set.cpp 310: Too many error or warning messages in function BndSet::Fill(int,int)
+*** 26 errors in Compile ***
+list.cpp:
+Error list.h 14: Statement missing ; in function Node::Node()
+*** 1 errors in Compile ***

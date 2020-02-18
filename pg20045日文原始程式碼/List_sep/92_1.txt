@@ -1,0 +1,8 @@
+int maxof(int a, int b)
+{
+	if (a > b)
+		 （７） ;
+	else
+		 （８） ;
+}
+

@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 12_4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1E6.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/12_4.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\pg20045原始程式碼\chap12\12_4\12_4.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE1E6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1E7.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/12_4.pdb" /debug /machine:I386 /out:"Debug/12_4.exe" /pdbtype:sept 
+".\Debug\12_4.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE1E7.TMP"
+<h3>Output Window</h3>
+Compiling...
+12_4.cpp
+Linking...
+12_4.obj : error LNK2001: unresolved external symbol "class ostream & __cdecl operator<<(class ostream &,class Date &)" (??6@YAAAVostream@@AAV0@AAVDate@@@Z)
+12_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall Kouza::Orosu(long)" (?Orosu@Kouza@@QAEXJ@Z)
+12_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall Kouza::Ireru(long)" (?Ireru@Kouza@@QAEXJ@Z)
+12_4.obj : error LNK2001: unresolved external symbol "public: __thiscall Kouza::Kouza(long,long,int,int,int)" (??0Kouza@@QAE@JJHHH@Z)
+Debug/12_4.exe : fatal error LNK1120: 4 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+12_4.exe - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

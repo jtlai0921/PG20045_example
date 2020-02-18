@@ -1,0 +1,5 @@
+ int aveof(int x, int y, int z)
+ {
+     return (  i13j (x + y + z) / 3);
+ }
+

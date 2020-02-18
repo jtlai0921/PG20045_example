@@ -1,0 +1,6 @@
+void diff (int x, int y)
+ {
+ 	if (   (10)   )
+		return (   (11)   );
+	return (   (12)   );
+ }

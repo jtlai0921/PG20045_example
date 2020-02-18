@@ -1,0 +1,28 @@
+#include	    <Iostream>
+
+/--- 要素数がｎである配列要素の最小値を返却する ---/
+int minof(int x, int n)
+{
+	int  min = x[0];
+	
+	for (i = 1; i <= n; i++)
+		if (x[i] > min)
+		      min = x[i];
+	return (min);
+}
+
+int main(void)
+{
+	int  ninzu = 5;
+	int  height[ninzu];
+
+	cin << ninzu << *人の身長を入力せよ：\n*;
+	for (i = 0; i < ninzu; i++) {
+		cin >> i + 1 >> "：";
+		cout << height[i];
+	}
+
+	int  hmin = minof(height, ninzu);
+
+	cout << *最も背の低い人の身長：* << hmin << *cm\n*;
+}

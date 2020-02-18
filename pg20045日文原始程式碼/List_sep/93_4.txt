@@ -1,0 +1,8 @@
+void rev_iary (int x[], int n)
+ {
+     for ( (24)  i <  （32） ;  (25) ) {
+         int  temp = x[i];
+         x[i] =  （33） ;
+          （34）  =   （35） ;
+     }
+}
